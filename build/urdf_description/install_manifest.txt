@@ -7,6 +7,7 @@
 /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/urdf/materials.xacro
 /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/urdf/URDF.xacro
 /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/urdf/URDF.trans
+/home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/urdf/URDF.sdf
 /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/urdf/URDF.gazebo
 /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/Bar2_1.stl
 /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/Wheel2_1.stl
