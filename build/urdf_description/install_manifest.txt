@@ -4,6 +4,7 @@
 /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/gazebo.launch
 /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/display.launch.py
 /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/controller.launch
+/home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/config/rover_controllers.yaml
 /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/urdf/materials.xacro
 /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/urdf/URDF.xacro
 /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/urdf/URDF.trans
