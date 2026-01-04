@@ -45,6 +45,7 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdf_description" TYPE DIRECTORY FILES
     "/home/berenakpinar/Downloads/2026Rover_description/launch"
+    "/home/berenakpinar/Downloads/2026Rover_description/config"
     "/home/berenakpinar/Downloads/2026Rover_description/urdf"
     "/home/berenakpinar/Downloads/2026Rover_description/meshes"
     "/home/berenakpinar/Downloads/2026Rover_description/rviz"
