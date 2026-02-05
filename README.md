@@ -72,9 +72,9 @@ source install/setup.bash
 Launch the robot description:
 
 ```bash
-ros2 launch 2026Rover_Description display.launch.py
+ros2 launch 2026Rover_Description gazebo.launch.py
 ```
-
+> Opens Gazebo and Rviz
 > Replace `display.launch.py` if your launch file has a different name.
 
 ---
