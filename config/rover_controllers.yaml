@@ -1,0 +1,20 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    velocity_controller:
+      type: velocity_controllers/JointGroupVelocityController
+
+velocity_controller:
+  ros__parameters:
+    joints:
+      - Revolute 10
+      - Revolute 11
+      - Revolute 12
+      - Revolute 13
+      - Revolute 14
+      - Revolute 15
+    interface_name: velocity

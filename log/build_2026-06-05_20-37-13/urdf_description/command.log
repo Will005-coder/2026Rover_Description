@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/2026Rover_Description/2026Rover_Description/build/urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/2026Rover_Description/2026Rover_Description/build/urdf_description -- -j14 -l14
+Invoked command in '/home/ubuntu/2026Rover_Description/2026Rover_Description/build/urdf_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/2026Rover_Description/2026Rover_Description/build/urdf_description -- -j14 -l14
