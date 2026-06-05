@@ -22,15 +22,23 @@ def generate_launch_description():
         'launch',
         'online_async_launch.py'
     )
+<<<<<<< HEAD
     
     slam_params_file = os.path.join(pkg_path, 'config', 'mapper_params_online_async.yaml')
+=======
+>>>>>>> caddd7ff5a319ac415dbe87685f8ec4c434882f2
 
     # 2. Define the Include action
     include_slam = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(slam_launch_path),
         launch_arguments={
             'use_sim_time': 'true',
+<<<<<<< HEAD
             'params_file': slam_params_file
+=======
+            'params_file': '/home/berenakpinar/Downloads/2026Rover_description/config/mapper_params_online_async.yaml'
+            
+>>>>>>> caddd7ff5a319ac415dbe87685f8ec4c434882f2
         }.items()
     )
 
@@ -49,8 +57,13 @@ def generate_launch_description():
     return LaunchDescription([
 
         set_resource_path,
+<<<<<<< HEAD
         include_slam,
         include_rviz,
+=======
+        #include_slam,
+        #include_rviz,
+>>>>>>> caddd7ff5a319ac415dbe87685f8ec4c434882f2
 
         # Start Gazebo
         ExecuteProcess(cmd=['ign', 'gazebo', '-r', 'empty.sdf'], output='screen'),
@@ -79,7 +92,11 @@ def generate_launch_description():
                         '-topic', 'robot_description',
                         '-x', '0.0',
                         '-y', '0.0',
+<<<<<<< HEAD
                         '-z', '0.5' # Start slightly above ground
+=======
+                        '-z', '0.5'
+>>>>>>> caddd7ff5a319ac415dbe87685f8ec4c434882f2
                     ],
                     output='screen'
                 )
@@ -90,8 +107,13 @@ def generate_launch_description():
             package='ros_gz_bridge',
             executable='parameter_bridge',
             arguments=[
+<<<<<<< HEAD
                 '/scan@sensor_msgs/msg/LaserScan@ignition.msgs.LaserScan',
                 '/clock@rosgraph_msgs/msg/Clock@ignition.msgs.Clock'
+=======
+                '/scan@sensor_msgs/msg/LaserScan[ignition.msgs.LaserScan',
+                '/clock@rosgraph_msgs/msg/Clock[ignition.msgs.Clock'
+>>>>>>> caddd7ff5a319ac415dbe87685f8ec4c434882f2
             ],
             output='screen'
         ),

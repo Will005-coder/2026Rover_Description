@@ -7,11 +7,16 @@
   <plugin filename="libign_ros2_control-system.so" name="ign_ros2_control::IgnitionROS2ControlPlugin">
     <robot_param>robot_description</robot_param>
     <robot_param_node>robot_state_publisher</robot_param_node>
+<<<<<<< HEAD
     <parameters>/home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/config/diff_controller.yaml</parameters>
+=======
+    <parameters>/home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/config/rover_controllers.yaml</parameters>
+>>>>>>> caddd7ff5a319ac415dbe87685f8ec4c434882f2
     <controller_manager_name>controller_manager</controller_manager_name>
   </plugin>
 </gazebo>
 
+<<<<<<< HEAD
 <gazebo reference="camera_link">
   <sensor type="depth" name="depth_camera">
     <always_on>true</always_on>
@@ -43,6 +48,8 @@
 
 
 
+=======
+>>>>>>> caddd7ff5a319ac415dbe87685f8ec4c434882f2
 <gazebo reference="base_link">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
@@ -53,11 +60,18 @@
 
 <!-- Add before closing </robot> tag -->
 <gazebo reference="lidar_link">
+<<<<<<< HEAD
   <sensor name="lidar" type="lidar">
     <pose>0 0 0 0 0 0</pose>
     <topic>/scan</topic>
     <update_rate>10</update_rate>
     <ignition_frame_id>lidar_link</ignition_frame_id>
+=======
+  <sensor name="gpu_lidar" type="gpu_lidar">
+    <pose>0 0 0 0 0 0</pose>
+    <topic>/scan</topic>
+    <update_rate>10</update_rate>
+>>>>>>> caddd7ff5a319ac415dbe87685f8ec4c434882f2
     <lidar>
       <scan>
         <horizontal>

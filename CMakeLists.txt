@@ -9,7 +9,10 @@ project(urdf_description)
 ## is used, also find other catkin packages
 find_package(ament_cmake REQUIRED)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> caddd7ff5a319ac415dbe87685f8ec4c434882f2
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 

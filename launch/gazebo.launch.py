@@ -79,7 +79,11 @@ def generate_launch_description():
                         '-topic', 'robot_description',
                         '-x', '0.0',
                         '-y', '0.0',
+<<<<<<< HEAD
                         '-z', '0.5' # Start slightly above ground
+=======
+                        '-z', '0.5'
+>>>>>>> caddd7ff5a319ac415dbe87685f8ec4c434882f2
                     ],
                     output='screen'
                 )
