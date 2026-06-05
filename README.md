@@ -46,19 +46,11 @@ This package enables:
 
 ## 🛠️ Installation
 
-<<<<<<< HEAD
-### 1️⃣ Clone the repository
-=======
 ### 1️ Clone the repository
->>>>>>> caddd7ff5a319ac415dbe87685f8ec4c434882f2
 
 ```bash
 git clone https://github.com/bakp22/2026Rover_Description.git
 ```
-<<<<<<< HEAD
-
-### 2️⃣ Build the workspace
-=======
 ### 2 Clear cache to remove non-existent file pointers
 
 ```bash
@@ -66,18 +58,13 @@ cd ~/2026Rover_Description && rm -rf build/ install/ log/ && colcon build
 ```
 
 ### 3 Build the workspace
->>>>>>> caddd7ff5a319ac415dbe87685f8ec4c434882f2
 
 ```bash
 cd ~/2026Rover_Description
 colcon build
 ```
 
-<<<<<<< HEAD
-### 3️⃣ Source the workspace
-=======
 ### 4 Source the workspace
->>>>>>> caddd7ff5a319ac415dbe87685f8ec4c434882f2
 
 ```bash
 source install/setup.bash
@@ -90,15 +77,9 @@ source install/setup.bash
 Launch the robot description:
 
 ```bash
-<<<<<<< HEAD
-ros2 launch 2026Rover_Description display.launch.py
-```
-
-=======
 ros2 launch urdf_description gazebo.launch.py
 ```
 > Opens Gazebo and Rviz
->>>>>>> caddd7ff5a319ac415dbe87685f8ec4c434882f2
 > Replace `display.launch.py` if your launch file has a different name.
 
 ---
