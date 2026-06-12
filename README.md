@@ -49,7 +49,7 @@ This package enables:
 ### 1️ Clone the repository
 
 ```bash
-git clone https://github.com/bakp22/2026Rover_Description.git
+git clone https://github.com/Will005-coder/2026Rover_Description.git
 ```
 ### 2 Clear cache to remove non-existent file pointers
 
